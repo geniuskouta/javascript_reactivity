@@ -1,7 +1,7 @@
 import './style.css';
 import typescriptLogo from './typescript.svg';
 import viteLogo from '/vite.svg';
-import { setupCounter } from './reactivity/observer/counter.ts';
+import { setupCounter } from './reactivity/define-property/counter.ts';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
